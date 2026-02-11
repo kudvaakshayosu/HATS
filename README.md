@@ -11,7 +11,7 @@ This repository contains the implementation used for the **first case study** of
 ## Repository Structure
 
 ```
-src/
+source/
 ├── Helper_Fun.py
 ├── hybrid_model_learner_v1.py
 ├── hybrid_ode.py
