@@ -43,9 +43,9 @@ Trains the hybrid model using the generated dataset.
 
 The following files contain utility functions and model classes built around the `torchdyn` library:
 
-- **Helper_Fun.py** – Helper utilities for data processing and training.
+- **Helper_Fun.py** – Helper utilities for data processing and plotting
 - **hybrid_model_learner_v1.py** – Hybrid model training wrapper implemented with PyTorch Lightning.
-- **hybrid_ode.py** – Defines the hybrid neural ODE architecture.
+- **hybrid_ode.py** – Defines the hybrid neural ODE architecture - definescustom HybridODE class.
 
 These modules provide abstractions for defining and training hybrid neural ODE models.
 
