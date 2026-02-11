@@ -105,3 +105,7 @@ Core libraries used:
 - torchdyn
 
 See `requirements.txt` for details.
+
+---
+
+For any questions regarding the code, simulation setup, or implementation details, please feel free to reach out via email: kudva.7@osu.edu
