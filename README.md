@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ### Step 1 – Generate Training Data
 
-From the `src/` directory:
+From the `source/` directory:
 
 ```bash
 python TNF_alpha_training_data.py
