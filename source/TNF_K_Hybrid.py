@@ -216,37 +216,6 @@ if __name__ == "__main__":
     
     
     
-    # Guess values
-    # mech_param_dict = {'a1': 0.5,
-    #  'a2': 0.5,
-    #  'a3': 0.5,
-    #  'b1': 0.5,
-    #  'b2': 0.5,
-    #  'b3': 0.5,
-    #  'b4': 0.5,
-    #  'b5': 0.5
-    #  }
-    
-    # Guess values - optimized    
-    # mech_param_dict = {'a1': 0.5520068,
-    #  'a2': 0.37427804,
-    #  'a3': 0.41637018, 
-    #  'b1': 0.6325303,
-    #  'b2': 0.3795553, 
-    #  'b3': 0.6210632,
-    #  'b4': 0.67357457,
-    #  'b5': 0.32503083}
-    
-    
-    # Guess values - optimized all states observed
-    # mech_param_dict = {'a1': 0.5316647,
-    #  'a2': 0.5329925,
-    #  'a3': 0.4895714,
-    #  'b1': 1.470833,
-    #  'b2': 0.4218885,
-    #  'b3': 0.6398287, 
-    #  'b4': 1.1941378,
-    #  'b5': 0.46071804}
     
 
     # True values:
@@ -259,16 +228,6 @@ if __name__ == "__main__":
      'b4': 0.5,
      'b5': 0.4}
     
-    
-    # Joint values
-    # {'a1': 0.23077323, 
-    #  'a2': 0.28322357,
-    #  'a3': 0.66844124,
-    #  'b1': 0.3061371, 
-    #  'b2': 1.1017553, 
-    #  'b3': 0.33873066,
-    #  'b4': 0.99117756,
-    #  'b5': 0.37275356}
     
      
     # Fermentor FPM:
@@ -313,4 +272,5 @@ if __name__ == "__main__":
     
     if plot_test_data:
         visualize_using_plots_test(n = 25 ,base = base, x_label = ['x1','x2','x3','x4'] ,u_label = ['u'], predictors = predictor, obs_state_idx = [2], T = 30, seed = 300)
+
     
