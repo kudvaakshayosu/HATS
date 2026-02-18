@@ -291,10 +291,11 @@ if __name__ == "__main__":
     data['train_tensors'] = train_tensors
     data['obs_idx'] = obs_idx
     
-    # with open("NBF_K_data", "wb") as f:
-    #     pickle.dump(data, f)
+    with open("NBF_K_data", "wb") as f:
+         pickle.dump(data, f)
         
         
     # dataset = TrajectoryDataset(train_tensors)
     # dataloader = data.DataLoader(dataset, batch_size=25, shuffle=True, num_workers=2)
+
     # all_idx = torch.tensor([i for i in range(151)]) # This is incase we want to use all the
